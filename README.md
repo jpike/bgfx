@@ -1,3 +1,9 @@
+This is a fork of https://github.com/bkaradzic/bgfx aimed simply at providing a simple way
+to perform a "unity" or "single translation unit" build of the entire bgfx library.
+Having a fork provides an easier way to see any changes and maintain updates over time.
+
+The remainder of this README.md file is from the original.  See commit history for additional changes to files in this repo.
+
 <p align="center">
 <img src="https://repository-images.githubusercontent.com/3925242/a4566200-912a-11ea-984f-c387546a3126">
 </p>
