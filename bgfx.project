@@ -3,6 +3,6 @@
 
 #pragma warning(disable: 4324)
 
-#include "dependencies/bx/src/amalgamated.cpp"
-#include "dependencies/bimg/src/amalgamated.cpp"
-#include "src/amalgamated.cpp"
+#include "bx/src/amalgamated.cpp"
+#include "bimg/src/amalgamated.cpp"
+#include "bgfx/src/amalgamated.cpp"

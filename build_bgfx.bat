@@ -21,7 +21,7 @@ SET COMPILATION_FILE="..\bgfx.project"
 SET LIBRARIES=user32.lib gdi32.lib
 
 REM CREATE THE COMMAND LINE OPTIONS FOR THE FILES TO COMPILE/LINK.
-SET INCLUDE_DIRS=/I ".." /I "..\dependencies\bx\include" /I "..\dependencies\bx\include\compat\msvc" /I "..\dependencies\bx\3rdparty" /I "..\dependencies\bimg\3rdparty" /I "..\dependencies\bimg\3rdparty\astc-codec" /I "..\dependencies\bimg\include" /I "..\dependencies\bimg\3rdparty\astc-codec\include" /I "..\include" /I "..\3rdparty" /I "..\3rdparty\khronos" /I "..\3rdparty\dxsdk\include"
+SET INCLUDE_DIRS=/I ".." /I "..\bx\include" /I "..\bx\include\compat\msvc" /I "..\bx\3rdparty" /I "..\bimg\3rdparty" /I "..\bimg\3rdparty\astc-codec" /I "..\bimg\include" /I "..\bimg\3rdparty\astc-codec\include" /I "..\bgfx\include" /I "..\bgfx\3rdparty" /I "..\bgfx\3rdparty\khronos" /I "..\bgfx\3rdparty\dxsdk\include"
 SET PROJECT_FILES_DIRS_AND_LIBS=%COMPILATION_FILE% %INCLUDE_DIRS% /link %LIBRARIES%
 
 REM MOVE INTO THE BUILD DIRECTORY.
