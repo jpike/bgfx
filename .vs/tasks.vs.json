@@ -1,0 +1,34 @@
+{
+  "version": "0.2.1",
+    "tasks":
+    [
+        {
+            "taskLabel": "task-build_bgfx",
+            "appliesTo": "build_bgfx.bat",
+            "type": "launch",
+            "contextType": "build",
+            "command": "build_bgfx.bat"
+        },
+        {
+            "taskLabel": "task-build_bgfx_web",
+            "appliesTo": "build_bgfx_web.bat",
+            "type": "launch",
+            "contextType": "build",
+            "command": "build_bgfx_web.bat"
+        },
+        {
+            "taskLabel": "task-build_sdl_example",
+            "appliesTo": "build_sdl_example.bat",
+            "type": "launch",
+            "contextType": "build",
+            "command": "build_sdl_example.bat"
+        },
+        {
+            "taskLabel": "task-build_sdl_example_web",
+            "appliesTo": "build_sdl_example_web.bat",
+            "type": "launch",
+            "contextType": "build",
+            "command": "build_sdl_example_web.bat"
+        }
+    ]
+}
